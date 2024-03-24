@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #2B3844;
+    display: flex;
+    gap: 900px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    text-align: left;
+    color: white;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.IMA {
+    width: 108px;
+    height: 22px;
+    padding-right: 100px;
+}
+
+main {
+    background-color: #202C36;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1 {
+    display: flex;
+    padding-top: 24px;
+    padding-left: 80px;
+
+}
+
+.pp {
+    display: flex;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    gap: 24px;
+
+
+}
+
+.div img {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 32px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 {
+    display: flex;
+    padding-top: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 70px;
+}
+
+.div2 {
+    display: flex;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 70px;
+    padding-bottom: 45px;
+}
+
+.h1 {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+.p {
+    padding-top: 16px;
+    padding-left: 24px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.box1 {
+    width: 264px;
+    height: 336px;
+    background: #2B3844;
+}
+
+.box1>img {
+    width: 264px;
+    height: 160px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+@media(max-width:375px) {
+    header {
+        display: flex;
+    }
+
+    .div1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .div2{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box1{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .sec2{
+        width: 100%;
+    }
+}
