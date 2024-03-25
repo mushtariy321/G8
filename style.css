@@ -6,16 +6,14 @@
 
 header {
     width: 100%;
-    height: 80px;
     background-color: #2B3844;
     display: flex;
-    gap: 900px;
+    justify-content: space-between;
     align-items: center;
+    padding: 24px 81px;
 }
 
-ul li a {
-    text-decoration: none;
-    font-family: Nunito Sans;
+.sh {
     font-size: 24px;
     font-weight: 800;
     line-height: 32.74px;
@@ -23,23 +21,11 @@ ul li a {
     color: white;
 }
 
-nav {
-    list-style: none;
-    display: flex;
-    padding-left: 80px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
 
-nav ul {
-    display: flex;
-    list-style: none;
-}
 
 .IMA {
     width: 108px;
     height: 22px;
-    padding-right: 100px;
 }
 
 main {
@@ -49,41 +35,32 @@ main {
     flex-direction: column;
 }
 
-.sec1 {
+.input {
+    margin-top: 48px;
+    margin-left: 80px;
+    width: 480px;
+    padding-left: 30px;
+    height: 56px;
     display: flex;
-    padding-top: 24px;
-    padding-left: 80px;
-
+    align-items: center;
+    background-color: #2B3844;
+    border-radius: 5px;
+    border: none;
+    background-image: url(./assets/search.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
-.pp {
-    display: flex;
+.input::placeholder {
     font-family: Nunito Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    text-align: left;
-    color: white;
-}
-
-.div {
-    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
     align-items: center;
-    width: 480px;
-    height: 56px;
-    background-color: #2B3844;
-    box-shadow: 0px 2px 9px 0px #0000000E;
-    gap: 24px;
-
-
 }
 
-.div img {
-    width: 18px;
-    height: 18px;
-    margin-top: 2px;
-    margin-left: 32px;
-}
 
 .container {
     display: flex;
@@ -146,26 +123,32 @@ main {
     border-radius: 5px 5px 0px 0px;
 }
 
-@media(max-width:375px) {
+@media(max-width:510px) {
     header {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 30px;
     }
 
     .div1 {
         flex-direction: column;
         width: 100%;
-    }
-    .div2{
-        flex-direction: column;
-        width: 100%;
+        align-items: center;
     }
 
-    .box1{
+    .div2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .box1 {
         flex-direction: column;
         display: flex;
     }
 
-    .sec2{
+    .sec2 {
         width: 100%;
     }
 }
